@@ -1,77 +1,11 @@
-# desafio-ruby
+# desafio-reactjs
 
+Para rodar o projeto, será necesário instalar as dependencias tanto do backend quando do frontend, para tal, basta seguir os passos abaixo
 
-First step: Fazer fork desse projeto e iniciar teu desafio! :)
+1 - Navegar até a pasta backend que se encontra na raíz do projeto, e executar o npm install
+2 - Após a instalação de todas as dependencias do backend, execute o comando npm run start, pronto  backend está rodando.
+3 - Navegue até a pasta frontend que se encontra na raíz do projeto, e executar o npm install
+4 - Após a instalação de todas as dependencias do front-end, execute o comando npm run start, pronto  frontend está rodando.
+5 - Acesse http://localhost:3000 para testar o projeto
 
-
-O plano é o seguinte:
-
-
-0 - Você vai criar tipo um marketplace
-
-1 - Permitir cadastro de lojas. Utilizar a gem “devise” para gerenciar cadastro/login das lojas
-
-2 - Consumir as APIs das lojas abaixo, e importar pelo menos 100 produtos DE CADA loja para o DBMongo
-
-3 - Exibir os produtos em grid conforme print abaixo
-
-4 - Fazer uma busca indexada por produto utilizando o Elasticsearch (Em termos de layout, você pode remover os filtros que têm no print e adicionar um campo de busca no lugar)
-
-5 - Fazer uma interface administrativa utilizando rails_admin para gerenciar as lojas e respectivos produtos
-
-
-Ps.: Caso seja necessário, segue adaptador do kaminari para o mongoid --> https://github.com/kaminari/kaminari-mongoid
-
-
-
-APIs:
-
-https://www.fossil.com.br/api/catalog_system/pub/products/search/
-
-http://www.timex.com.br/api/catalog_system/pub/products/search/
-
-https://www.schumann.com.br/api/catalog_system/pub/products/search/
-
-Paginação: https://www.fossil.com.br/api/catalog_system/pub/products/search?_from=0&_to=49
-
-
-
-Pode criar as três lojas:
-
-* Timex
-
-* Fossil
-
-* Schumann
-
-
-
-Estrutura - Loja:
-
-* Nome
-
-* Website
-
-* Logo
-
-* Email
-
-
-
-Estrutura - Produto
-
-* Nome
-
-* Preço
-
-* Parcelas
-
-* Imagem
-
-* Url
-
-
-![alt text](http://i.imgur.com/O2LaEPd.png)
-
-
-** Aí você publica essa aplicação em algum lugar (heroku, que seja) e nos envia o link do github pra vermos seu código. Damos um prazo normalmente de 4 dias, e você entrega o que vc conseguir até lá. Blz?
+##OBS: Peço sinceras desculpas, mas fiz esse código na correria, estou em uma taskforce na minha empresa que já dura cerca de 1 mes, sem nenhum descanso, de ontem pra hoje me atacou uma dor de garganta e muita febre o que me fez ir parar no rios d'or.
